@@ -1,0 +1,104 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("/public/images/cat_skeleton.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-y;
+}
+
+.header {
+  background-color: #82f15d;
+  color: #ffffff;
+  padding: 35px;
+  text-align: center;
+}
+
+.todo-form {
+  margin-bottom: 20px;
+}
+
+.task-input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.add-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #51b446;
+  color: #fff;
+}
+
+.add-btn:hover {
+  background-color: #ffffff;
+}
+
+.priority-input {
+  width: 60px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.todo-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.todo-item:hover {
+  background-color: #f0f0f0;
+}
+
+.edit-btn {
+  background-color: #ffc107; /* Amber */
+  color: #fff;
+}
+
+.edit-btn:hover {
+  background-color: #ff9800; /* Dark orange */
+}
+
+.delete-btn {
+  background-color: #f44336; /* Red */
+  color: #fff;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f; /* Dark red */
+}
+
+.check-btn {
+  background-color: #4caf50; /* Green */
+  color: #fff;
+}
+
+.check-btn:hover {
+  background-color: #388e3c; /* Dark green */
+}
+
+.update-btn {
+  background-color: #4caf50; /* Green */
+  color: #fff;
+}
+
+.update-btn:hover {
+  background-color: #388e3c; /* Dark green */
+}
